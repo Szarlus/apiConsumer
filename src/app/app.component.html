@@ -9,6 +9,9 @@
 <ul>
   <li>
     <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+    <div *ngFor="let key of keys">
+      <div>{{exchanges[key].ask}} </div>
+    </div>
   </li>
   <li>
     <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
